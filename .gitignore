@@ -1,0 +1,63 @@
+# Node modules and build output
+node_modules/
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Dependency directories
+jspm_packages/
+
+# VS Code settings
+.vscode/
+.history/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.swp
+*.swo
+
+# Static site generators
+public/
+.sass-cache/
+.cache-loader/
+
+# Ignore local settings and IDE files
+*.sublime*
+.idea/
+*.iml
+
+# Ignore Visual Studio specific folders
+.vs/
+
+# Ignore output from static site builds
+_site/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore compiled files
+*.tsbuildinfo
+
+# Ignore test coverage
+coverage/
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
