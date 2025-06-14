@@ -17,8 +17,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install Netlify CLI
-        run: npm install -g netlify-cli
+      - name: Setup Netlify CLI
+        uses: netlify/actions/cli@main
+        with:
+          cli-version: 'latest'
 
       - name: Deploy to Netlify (Preview)
         id: netlify
