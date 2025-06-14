@@ -1,6 +1,0 @@
-<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-labelledby="logoTitle logoDesc" role="img">
-  <title id="logoTitle">Civilmente Logo</title>
-  <desc id="logoDesc">A simple abstract logo for the Civilmente organization</desc>
-  <circle cx="60" cy="60" r="55" fill="#1976d2" stroke="#1565c0" stroke-width="5"/>
-  <text x="60" y="75" text-anchor="middle" font-size="48" fill="#fff" font-family="Arial, sans-serif" font-weight="bold">C</text>
-</svg>
