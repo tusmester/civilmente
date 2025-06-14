@@ -3,6 +3,10 @@ name: Deploy to Netlify on PR
 on:
   pull_request:
     types: [opened, synchronize, reopened]
+    branches:
+      - develop
+      - 'feature/*'
+      - 'fix/*'
     paths:
       - 'src/website/**'
 
